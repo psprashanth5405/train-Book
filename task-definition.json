@@ -1,9 +1,9 @@
 {
-    "family": "default-vcube142-1537",
+    "family": "default-vcube142-04f0",
     "containerDefinitions": [
         {
             "name": "Main",
-            "image": "454492134809.dkr.ecr.us-east-2.amazonaws.com/vcube142@sha256:e16c1ceb9e5d83000970803b5cd8dc5a5ba615eef277c23bc3492ee0031a3419",
+            "image": "454492134809.dkr.ecr.us-east-2.amazonaws.com/vcube142@sha256:649507729c6642b392a941d8b9c7e7151866dca13178faf0d9ab1a019727f970",
             "cpu": 1024,
             "memoryReservation": 2048,
             "portMappings": [
@@ -21,7 +21,7 @@
             "logConfiguration": {
                 "logDriver": "awslogs",
                 "options": {
-                    "awslogs-group": "/aws/ecs/default/vcube142-1537-7b21",
+                    "awslogs-group": "/aws/ecs/default/vcube142-04f0-3330",
                     "awslogs-region": "us-east-2",
                     "awslogs-stream-prefix": "ecs"
                 }
